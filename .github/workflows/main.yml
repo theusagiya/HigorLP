@@ -13,12 +13,12 @@ jobs:
       # Snake Animation
       - uses: Platane/snk@master
         id: snake-gif
-        with: 100
+        with: 
           github_user_name: HigorLP
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with: 100
+        with: 
           target_branch: output
           build_dir: dist
         env:
